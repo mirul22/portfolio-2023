@@ -17,15 +17,9 @@ enum Themes {
 
 enum Languages {
   en = 'en',
-  zh = 'zh',
 }
 
 const languages = [
-  {
-    id: Languages.zh,
-    name: 'ZH',
-    flag: '🇨🇳',
-  },
   {
     id: Languages.en,
     name: 'EN',
