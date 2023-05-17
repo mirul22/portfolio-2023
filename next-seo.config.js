@@ -1,25 +1,25 @@
 export default {
-  title: 'Charles Liu | Software Developer',
+  title: 'Amirul Ikmal | Software Developer | Programmer | UI UX Designer',
   description: 'Home to the Most Employable Developer Known to Man 🚀🚀🚀',
-  canonical: 'https://charlesliu.io',
+  canonical: 'https://amirulikmal.com',
   openGraph: {
-    url: 'https://charlesliu.io',
-    title: 'Charles Liu | Software Developer',
+    url: 'https://amirulikmal.com',
+    title: 'Amirul Ikmal | Software Developer | Programmer | UI UX Designer',
     description: 'Home to the most employable developer known to man',
     images: [
       {
-        url: 'https://charlesliu.io/hire-me-vercel.jpg',
+        url: 'https://amirulikmal.com/hire-me-sir.jpg',
         width: 1200,
         height: 630,
-        alt: 'Hire me Vercel!',
+        alt: 'Hire me!',
       },
       {
-        url: 'https://charlesliu.io/hire-me.jpg',
+        url: 'https://amirulikmal.com/hire-me.jpg',
         width: 852,
         height: 448,
         alt: 'OG Alt Portrait',
       },
     ],
-    site_name: 'Charles Liu | Software Developer',
+    site_name: 'Amirul Ikmal | Software Developer | Programmer | UI UX Designer',
   },
 };

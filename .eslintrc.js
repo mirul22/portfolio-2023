@@ -36,6 +36,7 @@ module.exports = {
     'jsx-a11y/no-onchange': 'off',
     'no-unused-vars': 'warn',
     'no-console': 'off',
+    'react/jsx-props-no-multi-spaces': 'error',
   },
   settings: {
     react: {

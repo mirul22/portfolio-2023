@@ -6,20 +6,20 @@ import { FaReact } from 'react-icons/fa';
 import { useInView } from 'react-intersection-observer';
 
 import {
-  MongoIcon,
-  PostgresIcon,
-  TsIcon,
-  NextIcon,
-  TailwindIcon,
-  PrismaIcon,
-  NodeIcon,
-  MySQLIcon,
-  ViteIcon,
-  LaravelIcon,
   FigmaIcon,
-  FlutterIcon,
   FirebaseIcon,
+  FlutterIcon,
+  LaravelIcon,
+  MongoIcon,
+  MySQLIcon,
+  NextIcon,
+  NodeIcon,
+  PostgresIcon,
   PostmanIcon,
+  PrismaIcon,
+  TailwindIcon,
+  TsIcon,
+  ViteIcon,
 } from './libs/Icons';
 import { Skill } from './libs/Skill';
 
@@ -37,7 +37,7 @@ const skills = [
   {
     name: 'Tailwind',
     href: 'https://tailwindcss.com/',
-    icon: <TailwindIcon/>,
+    icon: <TailwindIcon />,
   },
   {
     name: 'Typescript',
