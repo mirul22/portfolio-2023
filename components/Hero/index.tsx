@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import { useTranslation } from 'next-i18next';
 import React, { FC } from 'react';
 // import { FaGithub, FaLinkedin, FaPaperclip, FaTwitter } from 'react-icons/fa';
-import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
+import { FaGithub, FaLinkedin } from 'react-icons/fa';
 
 import { HandWave } from './libs/HandWave';
 import { HeroLink } from './libs/HeroLink';
