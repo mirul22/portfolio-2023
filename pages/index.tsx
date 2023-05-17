@@ -43,7 +43,7 @@ const IndexPage = () => {
         <Hero />
         <Skills />
         <Experience />
-        <Projects />
+        {/* <Projects /> */}
         <Contact />
         <Footer />
       </motion.div>

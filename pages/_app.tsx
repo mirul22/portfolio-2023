@@ -10,15 +10,30 @@ import { ThemeProvider } from 'next-themes';
 import SEO from '../next-seo.config';
 
 const keywords = [
-  'Charles',
-  'Charles Liu',
-  'University of Waterloo',
+  'Amirul',
+  'Amirul Ikmal',
+  'Muhammad Amirul Ikmal Bin Mohd Ridzwan',
+  'Malaysia',
   'Software Developer',
+  'Software Engineer',
+  'Senior Software Developer',
+  'Programmer',
+  'UI UX',
+  'UI UX Designer',
+  'UI',
+  'UX',
   'CS',
   'Computer Science',
-  'CertiK',
-  'On Deck',
-  'Student',
+  'Upwork',
+  'Software development',
+  'Web Development',
+  'Frontend Development',
+  'Backend Development',
+  'Website',
+  'Asia e University',
+  'UiTM',
+  'experience',
+  'coder',
 ];
 
 function MyApp({ Component, pageProps }: AppProps) {
