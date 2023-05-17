@@ -1,0 +1,50 @@
+{
+  "headTitle": "Home | Charles",
+  "header": "Home",
+  "hero": {
+    "title": "Hi, I'm Charles!",
+    "p0": "Full stack wizard, student, and entrepreneur",
+    "p1": "Future SWE intern at",
+    "p2": "Previously",
+    "des0": "I'm a 3rd year computer science specializing in SWE, AI, and business at the University of Waterloo.",
+    "des1": "I love collaborating in teams to create high-quality and sophisticated software.",
+    "des2": "My preferred tech stack involves React, NodeJS, and GraphQL, though I'm always excited to flex my other muscles.",
+    "des3": "I'm currently learning about genetic algorithms and developing a starcraft 2 AI with RL and SL."
+  },
+  "projects": {
+    "title": "Projects",
+    "description": "Here are some of my favourite projects I've lead and developed. Not only were they super fun to code, but many of them are providing utilty to real people today!",
+    "msmr": {
+      "subtitle": "Contracted by Ryerson University",
+      "description": "Blog and research sharing web app under the MSMR brand belonging to Dr. Jenny Liu."
+    },
+    "uwcribs": {
+      "subtitle": "Waterloo Student Housing Aggregator",
+      "description": "Instead of scrolling through Facebook endlessly every term to find a suitable place to live, we aggregated all available listings in a search engine to meet your specific needs."
+    },
+    "squiggles": {
+      "subtitle": "Interactive Social Network Graph",
+      "description": "Discover hidden relationships on Twitter by visualizing our shortest path, page rank, and proximity based sorting algorithms on a graph interface."
+    }
+  },
+  "skills": {
+    "title": "Skills",
+    "description": "Though I'm always excited to use the latest and greatest technologies, these are my tried and tested go to tools when building any project."
+  },
+  "experience": {
+    "title": "Experience",
+    "description": "I've had the honour of working at these amazing companies. Hopefully your company will be there too."
+  },
+  "contact": {
+    "title": "Want to connect?",
+    "description": "I really appreciate it when people go out of their way to get in touch. I'll make sure to get back to you as soon as possible!"
+  },
+  "currently": "Currently",
+  "citation": {
+    "content": "Please hire Charles. He's great!",
+    "author": "— Confucius"
+  },
+  "covid19": "Postponed due to Covid-19",
+  "and": "and",
+  "footer": "Crafted with NextJS, TailwindCSS, and Lots of ❤️"
+}
