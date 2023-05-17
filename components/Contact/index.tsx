@@ -10,9 +10,9 @@ export const Contact: FC = () => {
       <Container>
         <div className="mt-4">
           <a
-            href="mailto:c.liu0309@gmail.com"
+            href="mailto:amirulikmal.biz@gmail.com"
             className="text-base font-medium md:text-xl text-black-900 dark:text-white-900">
-            c.liu0309@gmail.com
+            amirulikmal.biz@gmail.com
           </a>
         </div>
       </Container>
