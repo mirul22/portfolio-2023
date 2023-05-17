@@ -5,7 +5,22 @@ import React, { FC, useEffect } from 'react';
 import { FaReact } from 'react-icons/fa';
 import { useInView } from 'react-intersection-observer';
 
-import { MongoIcon, PostgresIcon, TsIcon, NextIcon, TailwindIcon, PrismaIcon, NodeIcon, MySQLIcon, ViteIcon, LaravelIcon, FigmaIcon, FlutterIcon, FirebaseIcon, PostmanIcon } from './libs/Icons';
+import {
+  MongoIcon,
+  PostgresIcon,
+  TsIcon,
+  NextIcon,
+  TailwindIcon,
+  PrismaIcon,
+  NodeIcon,
+  MySQLIcon,
+  ViteIcon,
+  LaravelIcon,
+  FigmaIcon,
+  FlutterIcon,
+  FirebaseIcon,
+  PostmanIcon,
+} from './libs/Icons';
 import { Skill } from './libs/Skill';
 
 const skills = [
