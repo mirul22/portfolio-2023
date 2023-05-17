@@ -1,4 +1,5 @@
-import { CitationOverlay, Contact, Experience, Footer, Header, Hero, Projects, Skills } from 'components';
+import { CitationOverlay, Contact, Experience, Footer, Header, Hero, Skills } from 'components';
+// import { CitationOverlay, Contact, Experience, Footer, Header, Hero, Projects, Skills } from 'components';
 import { motion } from 'framer-motion';
 import { GetStaticProps } from 'next';
 import Head from 'next/head';
