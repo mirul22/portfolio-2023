@@ -43,14 +43,12 @@ export const Hero: FC = () => {
       <p className="text-xl font-bold tracking-normal md:text-3xl text-black-700 dark:text-white-700">
         {t('hero.p0')}
         <br />
-        {t('hero.p2')} <HeroLink title="Soskod Solution" href="http://soskod.com/" /> 
+        {t('hero.p2')} <HeroLink title="Soskod Solution" href="http://soskod.com/" />
         <br />
-        {t('and')}{' '}
-        {t('hero.p3')}{' '}
-        <HeroLink title="Upwork" href="https://www.upwork.com/" />
+        {t('and')} {t('hero.p3')} <HeroLink title="Upwork" href="https://www.upwork.com/" />
       </p>
       <div className="flex mt-8">
-      <MediaIcon
+        <MediaIcon
           icon={<FaGithub className="w-6 h-6 md:w-7 md:h-7" />}
           href="https://github.com/mirul22"
           className="mr-4"
