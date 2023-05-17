@@ -3,7 +3,7 @@ import { useTranslation } from 'next-i18next';
 import React, { FC } from 'react';
 
 import { Container } from '../Container';
-import { NinjaIcon } from './ConfuciusIcon';
+// import { NinjaIcon } from './ConfuciusIcon';
 import { Props } from './props';
 
 const textVariants = {
@@ -37,7 +37,7 @@ export const CitationOverlay: FC<Props> = ({ citation }: Props) => {
       initial="initial"
       animate={citation ? 'initial' : 'invisible'}>
       <Container>
-        <motion.div
+        {/* <motion.div
           variants={textVariants}
           initial="initial"
           animate="visible"
@@ -46,7 +46,7 @@ export const CitationOverlay: FC<Props> = ({ citation }: Props) => {
             duration: 1.2,
           }}>
           <NinjaIcon className="w-10 mb-2 fill-current md:ml-auto dark:text-white-900 text-black-900" />
-        </motion.div>
+        </motion.div> */}
         <motion.p
           className="mt-4 mb-2 text-xl font-medium leading-none md:text-2xl dark:text-white-900 text-black-900 md:my-0"
           variants={textVariants}
@@ -58,7 +58,7 @@ export const CitationOverlay: FC<Props> = ({ citation }: Props) => {
           }}>
           {t('citation.content')}
         </motion.p>
-        <motion.p
+        {/* <motion.p
           className="text-base md:text-right dark:text-white-700 text-black-700"
           initial="initial"
           animate="visible"
@@ -68,7 +68,7 @@ export const CitationOverlay: FC<Props> = ({ citation }: Props) => {
             duration: 1.2,
           }}>
           {t('citation.author')}
-        </motion.p>
+        </motion.p> */}
       </Container>
     </motion.div>
   );

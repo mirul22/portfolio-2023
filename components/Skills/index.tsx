@@ -3,17 +3,16 @@ import { useAnimation } from 'framer-motion';
 import { useTranslation } from 'next-i18next';
 import React, { FC, useEffect } from 'react';
 import { FaReact } from 'react-icons/fa';
-import { SiDjango, SiDocker, SiGraphql, SiNodeDotJs } from 'react-icons/si';
 import { useInView } from 'react-intersection-observer';
 
-import { AwsIcon, EthereumIcon, MongoIcon, PostgresIcon, TsIcon } from './libs/Icons';
+import { MongoIcon, PostgresIcon, TsIcon, NextIcon, TailwindIcon, PrismaIcon, NodeIcon, MySQLIcon, ViteIcon, LaravelIcon, FigmaIcon, FlutterIcon, FirebaseIcon, PostmanIcon } from './libs/Icons';
 import { Skill } from './libs/Skill';
 
 const skills = [
   {
-    name: 'Typescript',
-    href: 'https://www.typescriptlang.org/',
-    icon: <TsIcon />,
+    name: 'NextJS',
+    href: 'https://nextjs.org/',
+    icon: <NextIcon />,
   },
   {
     name: 'React',
@@ -21,14 +20,24 @@ const skills = [
     icon: <FaReact color="#00D8FF" />,
   },
   {
-    name: 'Django',
-    href: 'https://www.djangoproject.com/',
-    icon: <SiDjango color="#27ab78" />,
+    name: 'Tailwind',
+    href: 'https://tailwindcss.com/',
+    icon: <TailwindIcon/>,
   },
   {
-    name: 'Node.js',
-    href: 'https://nodejs.org/',
-    icon: <SiNodeDotJs color="#539E43" />,
+    name: 'Typescript',
+    href: 'https://www.typescriptlang.org/',
+    icon: <TsIcon />,
+  },
+  {
+    name: 'Prisma',
+    href: 'https://www.prisma.io/',
+    icon: <PrismaIcon />,
+  },
+  {
+    name: 'NodeJS',
+    href: 'https://nodejs.org/en',
+    icon: <NodeIcon />,
   },
   {
     name: 'MongoDB',
@@ -41,24 +50,39 @@ const skills = [
     icon: <PostgresIcon />,
   },
   {
-    name: 'Solidity',
-    href: 'https://docs.soliditylang.org/en/v0.8.16/',
-    icon: <EthereumIcon />,
+    name: 'Firebase',
+    href: 'https://firebase.google.com/',
+    icon: <FirebaseIcon />,
   },
   {
-    name: 'GraphQL',
-    href: 'https://graphql.org/',
-    icon: <SiGraphql color="#E535AB" />,
+    name: 'MySQL',
+    href: 'mysql.com',
+    icon: <MySQLIcon />,
   },
   {
-    name: 'Docker',
-    href: 'https://www.docker.com/',
-    icon: <SiDocker color="#0DB7ED" />,
+    name: 'Vite',
+    href: 'https://vitejs.dev/',
+    icon: <ViteIcon />,
   },
   {
-    name: 'AWS',
-    href: 'https://aws.amazon.com/',
-    icon: <AwsIcon />,
+    name: 'Laravel',
+    href: 'https://laravel.com/',
+    icon: <LaravelIcon />,
+  },
+  {
+    name: 'Flutter',
+    href: 'https://flutter.dev/',
+    icon: <FlutterIcon />,
+  },
+  {
+    name: 'Figma',
+    href: 'https://www.figma.com/',
+    icon: <FigmaIcon />,
+  },
+  {
+    name: 'PostMan',
+    href: 'https://www.postman.com/',
+    icon: <PostmanIcon />,
   },
 ];
 
