@@ -12,7 +12,8 @@ export const NinjaIcon: FC<Props> = ({ className }: Props) => {
       xmlns="http://www.w3.org/2000/svg"
       className={className}
       viewBox="0 0 800.000000 800.000000"
-      preserveAspectRatio="xMidYMid meet">
+      preserveAspectRatio="xMidYMid meet"
+    >
       <g transform="translate(0.000000,800.000000) scale(0.100000,-0.100000)">
         <path
           d="M3760 7090 c-310 -32 -586 -112 -865 -250 -698 -344 -1192 -986

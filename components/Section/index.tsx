@@ -36,7 +36,8 @@ export const Section: FC<Props> = ({ title, description, className, children }: 
         duration: 0.5,
         damping: 5,
         mass: 1,
-      }}>
+      }}
+    >
       <SectionHeader title={title} description={description} />
       {children}
     </motion.div>

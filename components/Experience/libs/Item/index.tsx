@@ -16,7 +16,8 @@ export const Item: FC<Props> = ({ title, place, date, last, first, controls, cus
         },
       }}
       animate={controls}
-      custom={custom}>
+      custom={custom}
+    >
       {!last && (
         <div className="absolute h-20 top-14 w-0.5 dark:bg-white-300 bg-white-700" style={{ left: '0.2rem' }} />
       )}

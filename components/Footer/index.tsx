@@ -12,7 +12,8 @@ export const Footer: FC = () => {
           href="https://github.com/LemonFace0309/personal-website-2.0"
           target="_blank"
           className="hover:opacity-80 transition-opacity"
-          rel="noreferrer">
+          rel="noreferrer"
+        >
           {t('footer')}
         </a>
       </p>

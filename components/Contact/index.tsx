@@ -11,7 +11,8 @@ export const Contact: FC = () => {
         <div className="mt-4">
           <a
             href="mailto:amirulikmal.biz@gmail.com"
-            className="text-base font-medium md:text-xl text-black-900 dark:text-white-900">
+            className="text-base font-medium md:text-xl text-black-900 dark:text-white-900"
+          >
             amirulikmal.biz@gmail.com
           </a>
         </div>

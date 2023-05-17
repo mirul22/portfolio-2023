@@ -35,7 +35,8 @@ export const CitationOverlay: FC<Props> = ({ citation }: Props) => {
         duration: 0.6,
       }}
       initial="initial"
-      animate={citation ? 'initial' : 'invisible'}>
+      animate={citation ? 'initial' : 'invisible'}
+    >
       <Container>
         {/* <motion.div
           variants={textVariants}
@@ -55,7 +56,8 @@ export const CitationOverlay: FC<Props> = ({ citation }: Props) => {
           transition={{
             delay: 1.0,
             duration: 1.2,
-          }}>
+          }}
+        >
           {t('citation.content')}
         </motion.p>
         {/* <motion.p

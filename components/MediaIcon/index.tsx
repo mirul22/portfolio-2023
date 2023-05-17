@@ -18,7 +18,8 @@ export const MediaIcon: FC<Props> = ({ icon, href, className }: Props) => {
             scale: 1.2,
           },
         }}
-        className="text-black-900 dark:text-white-900">
+        className="text-black-900 dark:text-white-900"
+      >
         {icon}
       </motion.div>
     </motion.a>

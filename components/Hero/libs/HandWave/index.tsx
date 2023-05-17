@@ -40,7 +40,8 @@ export const HandWave: FC<Props> = ({ className }: Props) => {
         mass: 0.3,
       }}
       initial="initial"
-      animate={toRotated ? 'rotated' : 'initial'}>
+      animate={toRotated ? 'rotated' : 'initial'}
+    >
       👋
     </motion.span>
   );

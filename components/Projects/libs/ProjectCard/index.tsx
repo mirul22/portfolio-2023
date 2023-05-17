@@ -30,7 +30,8 @@ export const ProjectCard: FC<Props> = ({
             href={externalLink}
             className="text-xl font-bold md:text-2xl dark:text-white-900 text-black-900"
             target="_blank"
-            rel="noreferrer">
+            rel="noreferrer"
+          >
             {title}
           </a>
           <p className="text-base font-medium md:text-xl dark:text-white-700 text-black-700">{subtitle}</p>
@@ -43,7 +44,8 @@ export const ProjectCard: FC<Props> = ({
                 'text-base dark:text-white-700 text-black-700',
                 i !== technologies.length - 1 && 'mr-5 md:mr-8'
               )}
-              key={tech}>
+              key={tech}
+            >
               {tech}
             </p>
           ))}
@@ -65,7 +67,8 @@ export const ProjectCard: FC<Props> = ({
           },
         }}
         animate={isHovered ? 'hovered' : 'initial'}
-        initial="initial">
+        initial="initial"
+      >
         <img
           className="object-cover w-full h-full rounded-lg opacity-30 md:h-auto dark:opacity-40 md:opacity-100 md:dark:opacity-80"
           src={imageLink}

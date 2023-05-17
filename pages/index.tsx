@@ -39,7 +39,8 @@ const IndexPage = () => {
         animate={main ? 'visible' : 'initial'}
         transition={{
           duration: 1.0,
-        }}>
+        }}
+      >
         <Header />
         <Hero />
         <Skills />
