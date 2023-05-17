@@ -43,40 +43,34 @@ export const Hero: FC = () => {
       <p className="text-xl font-bold tracking-normal md:text-3xl text-black-700 dark:text-white-700">
         {t('hero.p0')}
         <br />
-        {t('hero.p1')} <HeroLink title="Your Company" href="" disabled />
+        {t('hero.p2')} <HeroLink title="Soskod Solution" href="http://soskod.com/" /> 
         <br />
-        {t('hero.p2')} <HeroLink title="CertiK" href="https://www.certik.com/" /> {t('and')}{' '}
-        <HeroLink title="On Deck" href="https://www.beondeck.com/" />
+        {t('and')}{' '}
+        {t('hero.p3')}{' '}
+        <HeroLink title="Upwork" href="https://www.upwork.com/" />
       </p>
       <div className="flex mt-8">
-        <MediaIcon
+      <MediaIcon
           icon={<FaGithub className="w-6 h-6 md:w-7 md:h-7" />}
-          href="https://github.com/LemonFace0309"
+          href="https://github.com/mirul22"
           className="mr-4"
         />
         <MediaIcon
           icon={<FaLinkedin className="w-6 h-6 md:w-7 md:h-7" />}
-          href="https://www.linkedin.com/in/charles-liu-%F0%9F%94%8C-294391152/"
+          href="https://www.linkedin.com/in/amirulikmal/"
           className="mr-4"
         />
-        <MediaIcon
-          icon={<FaTwitter className="w-6 h-6 md:w-7 md:h-7" />}
-          href="https://twitter.com/CharlesLiu9"
-          className="mr-4"
-        />
-        <MediaIcon
+        {/* <MediaIcon
           icon={<FaPaperclip className="w-6 h-6 md:w-7 md:h-7 animate-bounce hover:animate-spin" />}
           href="https://www.dropbox.com/s/qw573dvqjyia7r2/Charles%20Liu%20-%20Software%20Developer.pdf?dl=0"
-        />
+        /> */}
       </div>
       <div className="mt-10">
         <p className="mb-8 text-base md:text-xl dark:text-white-700 text-black-700">{t('hero.des0')}</p>
-        <p className="mb-8 text-base md:text-xl dark:text-white-700 text-black-700">
-          {t('hero.des1')}
-          <br />
-          {t('hero.des2')}
-        </p>
+        <p className="mb-8 text-base md:text-xl dark:text-white-700 text-black-700">{t('hero.des1')}</p>
+        <p className="mb-8 text-base md:text-xl dark:text-white-700 text-black-700">{t('hero.des2')}</p>
         <p className="mb-8 text-base md:text-xl dark:text-white-700 text-black-700">{t('hero.des3')}</p>
+        <p className="mb-8 text-base md:text-xl dark:text-white-700 text-black-700">{t('hero.des4')}</p>
       </div>
     </Container>
   );

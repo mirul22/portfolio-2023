@@ -1,15 +1,17 @@
 {
-  "headTitle": "Home | Charles",
+  "headTitle": "Home | Amirul",
   "header": "Home",
   "hero": {
-    "title": "Hi, I'm Charles!",
-    "p0": "Full stack wizard, student, and entrepreneur",
-    "p1": "Future SWE intern at",
-    "p2": "Previously",
-    "des0": "I'm a 3rd year computer science specializing in SWE, AI, and business at the University of Waterloo.",
-    "des1": "I love collaborating in teams to create high-quality and sophisticated software.",
-    "des2": "My preferred tech stack involves React, NodeJS, and GraphQL, though I'm always excited to flex my other muscles.",
-    "des3": "I'm currently learning about genetic algorithms and developing a starcraft 2 AI with RL and SL."
+    "title": "Hi, I'm Amirul!",
+    "p0": "Full stack wizard and entrepreneur",
+    "p1": "Senior Software Developer",
+    "p2": "Founder of",
+    "p3": "Freelancer",
+    "des0": "With 6 years of experience, I have a track record of commended performance in modular and object-oriented programming abilities.",
+    "des1": "I have maintained, developed, and launched multiple projects, carrying the development of both their back-end and front-end.",
+    "des2": "I love to learn and challenge myself in the scope of programming and UI/UX. My preferred tech stack involves NextJS, ReactJS, Tailwind, Prisma though I'm always excited to flex my other muscles.",
+    "des3": "Looking into the future, I aspire to develop great software and services for the next billion users.",
+    "des4": "Laravel dev by day ☀️ and Javascript freak by night🌙"
   },
   "projects": {
     "title": "Projects",
