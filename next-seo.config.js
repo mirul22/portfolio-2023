@@ -1,11 +1,13 @@
 export default {
   title: 'Amirul Ikmal | Software Developer | Programmer | UI UX Designer',
-  description: 'Home to the Most Employable Developer Known to Man 🚀🚀🚀',
+  description:
+    'Experienced programmer with expertise in full-stack development, UI/UX design, and Laravel & JavaScript. Passionate about creating high-quality software for a global user base. Specializing in NextJS, ReactJS, Tailwind, and Prisma. Continuously learning and evolving to deliver exceptional solutions. 🚀🚀🚀',
   canonical: 'https://amirulikmal.com',
   openGraph: {
     url: 'https://amirulikmal.com',
     title: 'Amirul Ikmal | Software Developer | Programmer | UI UX Designer',
-    description: 'Home to the most employable developer known to man',
+    description:
+      'Experienced programmer with expertise in full-stack development, UI/UX design, and Laravel & JavaScript. Passionate about creating high-quality software for a global user base. Specializing in NextJS, ReactJS, Tailwind, and Prisma. Continuously learning and evolving to deliver exceptional solutions.',
     images: [
       {
         url: 'https://amirulikmal.com/hire-me-sir.jpg',

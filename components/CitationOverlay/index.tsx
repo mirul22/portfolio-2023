@@ -1,9 +1,7 @@
 import { motion } from 'framer-motion';
-import { useTranslation } from 'next-i18next';
 import React, { FC } from 'react';
 
 import { Container } from '../Container';
-// import { NinjaIcon } from './ConfuciusIcon';
 import { Props } from './props';
 
 const textVariants = {
@@ -16,7 +14,20 @@ const textVariants = {
 };
 
 export const CitationOverlay: FC<Props> = ({ citation }: Props) => {
-  const { t } = useTranslation('common');
+  const phrases = [
+    "Let's code like there's no tomorrow and build the future together!",
+    "Want to create something amazing? Let's put our heads together and make it happen.",
+    "Let's make some magic happen with my programming skills - I'll bring the wand!",
+    "Don't just dream it - let's smash through the walls of possibility and make it a reality.",
+    'Looking for a programming superhero? Look no further!',
+    'With my skills and your vision, we can make the tech world quake in its boots!',
+    "Ready to turn your tech dreams into a blockbuster hit? Let's make it happen!",
+    "Let's light up the coding universe with my skills and passion for excellence.",
+    "Looking for a programming ninja to help you conquer the competition? I'm your sensei!",
+    "Let's transform your ideas into a stunning reality - fasten your seatbelts, we're in for a wild ride!",
+  ];
+
+  const randomIndex = Math.floor(Math.random() * phrases.length);
 
   return (
     <motion.div
@@ -38,16 +49,6 @@ export const CitationOverlay: FC<Props> = ({ citation }: Props) => {
       animate={citation ? 'initial' : 'invisible'}
     >
       <Container>
-        {/* <motion.div
-          variants={textVariants}
-          initial="initial"
-          animate="visible"
-          transition={{
-            delay: 3.0,
-            duration: 1.2,
-          }}>
-          <NinjaIcon className="w-10 mb-2 fill-current md:ml-auto dark:text-white-900 text-black-900" />
-        </motion.div> */}
         <motion.p
           className="mt-4 mb-2 text-xl font-medium leading-none md:text-2xl dark:text-white-900 text-black-900 md:my-0"
           variants={textVariants}
@@ -55,22 +56,11 @@ export const CitationOverlay: FC<Props> = ({ citation }: Props) => {
           animate="visible"
           transition={{
             delay: 1.0,
-            duration: 1.2,
+            duration: 2.0,
           }}
         >
-          {t('citation.content')}
+          {phrases[randomIndex]}
         </motion.p>
-        {/* <motion.p
-          className="text-base md:text-right dark:text-white-700 text-black-700"
-          initial="initial"
-          animate="visible"
-          variants={textVariants}
-          transition={{
-            delay: 2.0,
-            duration: 1.2,
-          }}>
-          {t('citation.author')}
-        </motion.p> */}
       </Container>
     </motion.div>
   );
