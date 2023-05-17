@@ -16,29 +16,34 @@ export const Experience: FC = () => {
   const experience = useMemo(
     () => [
       {
-        title: 'CertiK Software Engineer Intern',
-        place: 'New York, NY',
-        date: 'Jan 2023 - April 2023',
+        title: 'Senior Software Developer at C-Speed',
+        place: 'Kuala Lumpur, Malaysia',
+        date: 'Jan 2023 - Present',
       },
       {
-        title: 'On Deck Full Stack Product Engineer Intern',
-        place: 'San Francisco, Ca',
-        date: 'Jan 2022 - April 2022',
+        title: 'Founder of Soskod Solution',
+        place: 'Kuala Lumpur, Malaysia',
+        date: 'Jan 2022 - Present',
       },
       {
-        title: 'Enzuzo Full Stack Developer Intern',
-        place: 'Waterloo, On',
-        date: 'May 2021 - August 2021',
+        title: 'Programmer at Akal Aspirasi',
+        place: 'Kuala Lumpur, Malaysia',
+        date: 'Aug 2019 - Jan 2023',
       },
       {
-        title: 'Freelance Software Developer',
-        place: 'Toronto, On',
-        date: 'May 2020 - April 2021',
+        title: 'Software Engineer at Dharihaz Technologies',
+        place: 'Shah Alam, Malaysia',
+        date: 'Dec 2018 - Jul 2019',
       },
       {
-        title: 'Bitcoin Bay Intern',
-        place: 'Toronto, On',
-        date: 'July 2019 - September 2019',
+        title: 'Analyst Programmer at EQ Soft',
+        place: 'Petaling Jaya, Malaysia',
+        date: 'Jun 2018 - Nov 2018',
+      },
+      {
+        title: 'System Programmer at NRM Technology',
+        place: 'Kuala Lumpur, Malaysia',
+        date: 'May 2017 - May 2018',
       },
     ],
     []
