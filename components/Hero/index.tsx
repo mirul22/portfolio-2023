@@ -16,7 +16,7 @@ export const Hero: FC = () => {
       <motion.img
         src="/images/me.jpg"
         alt="A beautiful face"
-        className="overflow-hidden rounded-full w-14 h-14 md:w-16 md:h-16 mt-18"
+        className="overflow-hidden rounded-full w-20 h-20 md:w-22 md:h-22 mt-24"
         variants={{
           hidden: {
             scale: 0,
